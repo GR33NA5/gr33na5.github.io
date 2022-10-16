@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kontaktai.css">
+    <title>Kontaktai</title>
+</head>
+<body>
+    <div class="nav">
+        <ul><a href="index.html">Pagrindinis</a></ul>
+        <ul><a href="apie.html">Apie</a></ul>
+        <ul><a href="kontaktai.html">Kontaktai</a></ul>
+   </div>
+
+   <h2>Susisiekimas</h2>
+   <p>Nakti neskambinekit.</p>
+
+   <div class="container">
+     <div style="text-align:center">
+       <h2>Kontaktai</h2>
+       <p>Surasyk savo info</p>
+     </div>
+     <div class="row">
+       <div class="lentele">
+         <img src="kalpokas.jpg" style="width:100%">
+       </div>
+       <div class="lentele">
+         <form action="issiusta.html">
+           <label for="fname">Vardas</label>
+           <input type="text" id="fname" name="firstname" placeholder="Tavo vardas..">
+           <label for="lname">Pavarde</label>
+           <input type="text" id="lname" name="lastname" placeholder="Tavo pavarde..">
+           <label for="salis">Salis</label>
+           <select id="rajonas" name="rajonas">
+             <option value="lietuva">Lietuva</option>
+             <option value="slabotke">Slabotke</option>
+             <option value="emeilai">Emeilei</option>
+           </select>
+           <label for="zhinute">Zhinute</label>
+           <textarea id="zhinute" name="zhinute" placeholder="Parasyk, nesigedyk.." style="height:170px"></textarea>
+           <input type="submit" value="Siusti">
+         </form>
+       </div>
+     </div>
+   </div>
+</body>
+</html>
